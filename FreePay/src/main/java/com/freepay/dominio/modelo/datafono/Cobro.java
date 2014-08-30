@@ -11,6 +11,7 @@ public class Cobro implements Entity<Cobro>  {
     private String referencia;
     private int valorPagar;
     String nombre2;
+    String nombre1;
 	
 	public Cobro(){}
     public Cobro(final int codigoDatafono, final String referencia,final int valorPagar) {
