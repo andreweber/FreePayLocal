@@ -10,6 +10,7 @@ public class DatafonoService {
 	public Cobro generarCobro(final int codigoDatafono, final String referencia, final int valorPagar) throws ExcepcionNegocio, Exception {
 		String mensaje = null;
 		String mensaje2 = null;
+		String mensaje4 = null;
 		
 		mensaje = Cobro.validarValorPagar(valorPagar);
 		if(mensaje != null) {
