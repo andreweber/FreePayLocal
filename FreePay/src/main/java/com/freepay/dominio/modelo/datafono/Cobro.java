@@ -10,6 +10,7 @@ public class Cobro implements Entity<Cobro>  {
 	private int codigoDatafono;
     private String referencia;
     private int valorPagar;
+    String nombre2;
 	
 	public Cobro(){}
     public Cobro(final int codigoDatafono, final String referencia,final int valorPagar) {
